@@ -15,13 +15,13 @@ defmodule LibNewChain.Mixfile do
   def project do
     [
       app: :libnewchain,
-      version: "0.1.11",
+      version: "0.1.12",
       language: :erlang,
       description: "Erlang NIF bindings for the the libnewchain library",
       package: [
         maintainers: ["Meng Guang"],
         licenses: ["MIT"],
-        links: %{"GitHub" => "https://github.com/mengguang/libnewchain"}
+        links: %{"GitHub" => "https://github.com/mengguang/libnewchain-ex"}
       ],
       compilers: [:new_chain, :elixir, :app],
       deps: deps()

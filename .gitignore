@@ -1,0 +1,6 @@
+/cmake-*
+/.idea/
+/_build/
+/priv/*.so
+/deps/ 
+/doc/
